@@ -14,7 +14,7 @@ export default function AppCard({ app }: any) {
                 flexDirection: "row",
                 padding: 15,
                 marginVertical: 10,
-                backgroundColor: hovered ? "#2a2a2a" : "#1e1e1e",
+                backgroundColor: hovered ? "#ffffffff" : "#1e1e1e",
                 borderRadius: 12,
                 transform: [{ scale: hovered ? 1.03 : 1 }],
 
