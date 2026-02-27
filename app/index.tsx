@@ -7,13 +7,13 @@ export default function Home() {
     <ScrollView
       style={{
         flex: 1,
-        backgroundColor: "#121212",
+        backgroundColor: "#ffffffff",
         padding: 20
       }}
     >
       <Text
         style={{
-          color: "white",
+          color: "black",
           fontSize: 28,
           fontWeight: "bold",
           marginBottom: 20

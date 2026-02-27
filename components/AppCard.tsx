@@ -9,7 +9,7 @@ export default function AppCard({ app }: any) {
         flexDirection: "row",
         padding: 15,
         marginVertical: 8,
-        backgroundColor: "#1e1e1e",
+        backgroundColor: "#ffffffff",
         borderRadius: 10
       }}
     >
@@ -19,7 +19,7 @@ export default function AppCard({ app }: any) {
       />
 
       <View style={{ marginLeft: 15 }}>
-        <Text style={{ color: "white", fontSize: 18 }}>
+        <Text style={{ color: "black", fontSize: 18 }}>
           {app.name}
         </Text>
         <Text style={{ color: "gray" }}>

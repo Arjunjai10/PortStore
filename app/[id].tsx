@@ -18,7 +18,7 @@ export default function AppDetails() {
     <ScrollView
       style={{
         flex: 1,
-        backgroundColor: "#121212",
+        backgroundColor: "#ffffffff",
         padding: 20
       }}
     >
@@ -42,26 +42,26 @@ export default function AppDetails() {
         Version {app.version}
       </Text>
 
-      <Text style={{ color: "white", marginBottom: 20 }}>
+      <Text style={{ color: "black", marginBottom: 20 }}>
         {app.description}
       </Text>
 
       <TouchableOpacity
         onPress={() => Linking.openURL(app.apk)}
         style={{
-          backgroundColor: "#00c853",
+          backgroundColor: "#0f57ffff",
           padding: 15,
           borderRadius: 10,
           alignItems: "center",
           marginBottom: 20
         }}
       >
-        <Text style={{ color: "white", fontSize: 18 }}>
+        <Text style={{ color: "black", fontSize: 18 }}>
           Download APK
         </Text>
       </TouchableOpacity>
 
-      <Text style={{ color: "white", fontSize: 20, marginBottom: 10 }}>
+      <Text style={{ color: "black", fontSize: 20, marginBottom: 10 }}>
         Screenshots
       </Text>
 
